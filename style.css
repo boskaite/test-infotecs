@@ -1,0 +1,111 @@
+h2, h3, h4, h6, p, label, textarea {
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, h3, h4 {
+    cursor: default;
+}
+h2 {
+    text-align: center; 
+}
+h3 {
+    margin-top: 0px; 
+    text-align: center; 
+}
+h4 {
+    padding: 10px;
+}
+h6 {
+    text-align: right;
+    letter-spacing: 0.03em;
+}
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+input {
+    margin: 20px 0px 8px 16px;
+    cursor: pointer;
+}
+label {
+    margin-top: 18px;
+    cursor: pointer;
+}
+textarea {
+    width: 70%;
+    margin: 16px 0px;
+    font-size: medium; 
+    border: 1px solid #b0c4de7e;
+}
+button {
+    width: 100%;
+    min-height: 4vh;
+    margin-bottom: 8px;
+    font-size: large; 
+    background-color: #c9e0ff;
+    border: none;
+    box-shadow: 0 0 5px 2px #B0C4DE;
+    cursor: pointer;
+}
+hr {
+    width: 70%;
+    margin-bottom: 16px;
+    border: 1px solid rgba(176, 196, 222, 0.5);
+}
+#to-do-list, #selected-to-do-description {
+    height: 90vh; 
+    padding: 8px;
+    border: 5px solid #00a2e8; 
+}
+#to-do-list {
+    width: 15vw;
+}
+#selected-to-do-description {
+    width: 50vw; 
+    border-left: none;
+} 
+#search-input {
+    width: 80%;
+    margin: 8px 8px 20px 0px;
+}
+#search-btn {
+    width: auto;
+    min-height: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+#text-description {
+    height: 55vh;
+}
+.await {
+    color: #9b9797;
+}
+.inprogress {
+    color: #6fa7da;
+}
+.done {
+    color: #17b65f;
+}
+.flex-block {
+    display:flex; 
+    justify-content:center;
+}
+.task-to-do {
+    margin: 5px;
+    border: 1px solid #B0C4DE;
+    cursor: pointer;
+}
+.selected-task {
+    background-color: #dbf4ff;
+    box-shadow: 0 0 5px 2px #B0C4DE;
+}
+.hidden {
+    visibility: hidden;
+}
+#save-task, #delete-task {
+    width: 70%;
+}
+#delete-task {
+    margin-top: 12px;
+}
